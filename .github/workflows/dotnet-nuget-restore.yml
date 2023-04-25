@@ -27,6 +27,6 @@ jobs:
         nuget-version: '5.x'
     
     - name: Restore dependencies
-    - run: nuget restore src/nuget-slnf-bug/nuget-slnf-bug.slnf
+      run: nuget restore src/nuget-slnf-bug/nuget-slnf-bug.slnf
     - name: Build
       run: dotnet build --no-restore src/nuget-slnf-bug/nuget-slnf-bug.slnf
