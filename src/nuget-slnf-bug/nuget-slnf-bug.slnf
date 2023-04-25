@@ -2,7 +2,7 @@
   "solution": {
     "path": "..\\nuget-slnf-bug.sln",
     "projects": [
-      "nuget-snlf-bug\\nuget-slnf-bug.csproj"
+      "nuget-slnf-bug\\nuget-slnf-bug.csproj"
     ]
   }
 }
