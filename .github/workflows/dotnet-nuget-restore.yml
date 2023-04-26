@@ -23,7 +23,6 @@ jobs:
     - name: Setup Nuget
       uses: nuget/setup-nuget@v1
       with:
-        nuget-api-key: ${{ secrets.NuGetAPIKey }}
         nuget-version: '6.5'
     - name: Restore dependencies
       run: nuget restore src/nuget-slnf-bug/nuget-slnf-bug.slnf
